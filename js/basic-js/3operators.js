@@ -56,7 +56,7 @@ Print a salary slip.
 const name = String(prompt("Enter your name: "));
 const monthlySalary = Number(prompt("Enter Your Monthly salary: "));
 const bonus = Number(prompt("Enter Your Bonus: "));
-const taxPercentage = Number(prompt("tax percentage: "));
+const taxPercentage = parseFloat(prompt("tax percentage: "));
 
 /*---Calculator---*/
 const GrossSalary = monthlySalary + bonus;
